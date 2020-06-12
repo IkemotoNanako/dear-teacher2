@@ -186,15 +186,20 @@ header {
 .news {
     background-color: #cccccc;
     height: 80px;
-    width: 400px;
+    width: 550px;
     margin-right: 0;
-    margin-top: 500px;
+    position: absolute;
+    right: auto;
+    bottom: 0;
 }
 .news-box {
     background-color: #000;
     height: 80px;
     width: 150px;
     margin-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .box-name {
     font-size: small;
