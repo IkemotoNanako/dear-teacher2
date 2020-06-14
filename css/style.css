@@ -380,19 +380,52 @@ h3 {
 #contact {
     background: url(../img/akin-cakiner-nkUFXi0JSX8-unsplash.jpg) ;
     background-size: cover;
-    height: auto;
+    height: 600px;
     color: #f2f2f2;
     text-align: center;
+    position: relative;
 }
 .contact {
-    font-size: 30px;   
+    position: absolute;
+    font-size: 30px;
+    top:100px; 
+    left: 47%;  
+}
+.sub-contact {
+    position: absolute;
+    top:140px;
+    left: 47.5%;
 }
 .main {
     font-size: 50px;
     margin: 10px;
+    position: absolute;
+    top: 200px;
+    left: 25%;
 }
 .sub {
     width: 80%;
     position: absolute;
     left: 10%;
+    top: 280px;
+}
+.contact-botan {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #f2f2f2;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: #f2f2f2 1px solid;
+    position: absolute;
+    top: 400px;
+    left: 45%;
+}
+#footer {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #000;
+    color: #f2f2f2;
 }
